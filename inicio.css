@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import url(http:/fonts.googleapis.com/css?family=Titillium+Web);
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4682B4;
+}
+
+div#interface {
+    background-color: #fff;
+    width: 720px;
+    margin: auto;
+    padding: 10px;
+}
+
+ header {
+ display: block;
+ border-bottom: 1px #4682B4 solid;
+}
+
+header#cabecalho h1 {
+    text-align: center;
+    color: #0000CD;
+    margin: 5px;
+    font-size: 28pt;
+    font-family: Courier New, sans-serif;
+}
+
+header#cabecalho h2 {
+    color: #0000CD;
+    font-size: 10pt;
+    text-align: center;
+    font-family: Courier New, sans-serif;
+}
+
+section#corpo h1 {
+    font-size: 15pt;
+    padding: 0px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-weight: bold
+}
+
+section#corpo img {
+    padding: 8px;
+}
+
+p {
+    margin: 3px;
+    padding: 3px;
+    font-family: Calibri, sans-serif;
+}
+
+footer#rodape {
+    padding: 10px;
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+}
